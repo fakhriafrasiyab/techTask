@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "45a03802-f14a-454a-8cb4-5529d648e622",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"type\": \"Car\",\r\n        \"model\": \"Toyota Yaris\"\r\n    },\r\n    {\r\n        \"type\": \"Car\",\r\n        \"model\": \"Honda Jazz\"\r\n    },\r\n    {\r\n        \"type\": \"Van\",\r\n        \"model\": \"Renault Master\"\r\n    },\r\n    {\r\n        \"type\": \"Van\",\r\n        \"model\": \"VW Transporter\"\r\n    }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Car",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
