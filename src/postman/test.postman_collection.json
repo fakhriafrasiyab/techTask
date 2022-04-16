@@ -39,7 +39,22 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:8888/cars/8?type=Van",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"cars",
+						"8"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Van"
+						}
+					]
 				}
 			},
 			"response": []
